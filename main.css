@@ -16,28 +16,38 @@ body {
     text-align: center;
     font-size: 160%;
 }
-.box1 {
-    min-width: 45vh;
-    background:#5e5d5b;}
-
 .container {
-    display: flex;
+    text-align: center;
+    display:flex
     min-height: 10vh;
     flex-direction: row;
+    
 }
 .button {
+    border-style: groove;
+    border-color: black;
+    border-bottom: hidden;
+    border-top: hidden;
+    display: inline-block;
+    min-width: 25%;
+    height: 50px;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;   
-    color: rgb(255, 255, 255)
+    font-size: 20pt;
+    text-shadow: rgb(0, 0, 0) 1px 0 4px;
+    background-color: rgba(104, 104, 104, 0.7);
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
-
 h1 {
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
