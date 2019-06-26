@@ -2,6 +2,7 @@ body {
     background-image: url(dovestones.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 h1 {
     text-align:center;
